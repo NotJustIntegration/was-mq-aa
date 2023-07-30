@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: ibm.techsales.demo.was.mq.aa.AppTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in ibm.techsales.demo.was.mq.aa.AppTest

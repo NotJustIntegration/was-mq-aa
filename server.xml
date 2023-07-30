@@ -1,0 +1,35 @@
+<server description="new server">
+
+    <featureManager>
+        <feature>jsp-2.3</feature>
+        <feature>localConnector-1.0</feature>
+        <feature>transportSecurity-1.0</feature>
+        <feature>jms-2.0</feature>
+        <feature>wmqJmsClient-2.0</feature>
+        <feature>jndi-1.0</feature>
+    </featureManager>
+
+    <httpEndpoint id="defaultHttpEndpoint"
+                  host="*"
+                  httpPort="9080"
+                  httpsPort="9443" />
+
+    <variable name="wmqJmsClient.rar.location"                    
+        value="/opt/wmq/wmq.jmsra.rar"/>
+
+<jmsConnectionFactory jndiName="jms/QCF" connectionManagerRef="ConMgr6">
+     <properties.wmqJms 
+        ccdtURL="file:///opt/wmq/ccdt.json" 
+        queueManager="*QMGRP"/>
+</jmsConnectionFactory>
+<connectionManager id="ConMgr6" maxPoolSize="2"/>
+
+<jmsQueue id="jms/Q1" jndiName="jms/Q1">
+     <properties.wmqJms 
+        baseQueueName="QUEUE1" 
+        targetClient="MQ"/>
+    </jmsQueue>
+
+</server>
+
+

@@ -1,0 +1,46 @@
+{
+  "channel": 
+  [
+      {
+          "name": "SYSTEM.DEF.SVRCONN",
+          "clientConnection": 
+          {
+              "connection": 
+              [
+                  {
+                      "host": "169.60.3.107",
+                      "port": 1414
+                  }
+              ],
+              "queueManager": "QMGRP"
+          },
+          "connectionManagement":
+          {
+            "clientWeight": 1,
+            "affinity": "none"
+          },
+          "type": "clientConnection"
+      },
+      {
+          "name": "SYSTEM.DEF.SVRCONN",
+          "clientConnection": 
+          {
+              "connection": 
+              [
+                  {
+                      "host": "169.60.3.107",
+                      "port": 1416
+                  }
+              ],
+              "queueManager": "QMGRP"
+          },
+          "connectionManagement":
+          {
+            "clientWeight": 1,
+            "affinity": "none"
+          },
+          "type": "clientConnection"
+      }
+ ]
+}
+

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.45.1">
+<file name="/Users/abdullahalsowaygh/workspace/was_mq_aa/mvn/demo-was-mq-aa/src/main/java/ibm/techsales/demo/was/mq/aa/SendMessageServlet.java">
+</file>
+<file name="/Users/abdullahalsowaygh/workspace/was_mq_aa/mvn/demo-was-mq-aa/src/test/java/ibm/techsales/demo/was/mq/aa/AppTest.java">
+</file>
+</checkstyle>
