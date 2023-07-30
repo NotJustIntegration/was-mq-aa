@@ -325,14 +325,6 @@ By now you should have the Websphere Application Server Liberty deployed on Open
 Open 4 different command line terminals windows. Two will be used to execute curl command to send messages and the other two will be for reading the messages
 
 ![Testing recording](./screenshots/testing_animation.gif)
-
-Before executing the curl: 
-
-<img title="" src="./screenshots/before_test.png" alt="<screenshot>" data-align="center">
-
-After executing the curl: 
-
-<img title="" src="./screenshots/after_test.png" alt="<screenshot>" data-align="center">
  
 
 
