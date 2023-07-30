@@ -1,0 +1,5 @@
+# .gitignore
+*.drawio
+mvn/
+redeploy.sh
+wmq.jmsra.rar
